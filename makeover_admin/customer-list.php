@@ -60,7 +60,7 @@ if (strlen($_SESSION['bpmsaid']==0)) {
 				
 					<div class="table-responsive bs-example widget-shadow">
 						<h4>Customer List:</h4>
-						<table class="table table-bordered"> <thead> <tr> <th>#</th> <th>Name</th> <th>Mobile</th> <th>Email</th><th>Action</th> </tr> </thead> <tbody>
+						<table class="table table-bordered"> <thead> <tr> <th>#</th>   <th>Email</th><th>Password</th> <th>Action</th> </tr> </thead> <tbody>
 <?php
 $ret=mysqli_query($con,"select *from  users");
 $cnt=1;
@@ -68,7 +68,7 @@ while ($row=mysqli_fetch_array($ret)) {
 
 ?>
 
-						 <tr> <th scope="row"><?php echo $cnt;?></th> <td><?php echo $row['firstname'] . ' ' . $row['lastname']; ?></td> <td><?php  echo $row['contact'];?></td><td><?php  echo $row['email'];?></td> <td><a href="edit-customer-detailed.php?editid=<?php echo $row['user_id'];?>">Edit</a> </td> </tr>   <?php 
+						 <tr> <th scope="row"><?php echo $cnt;?></th>   <td><?php  echo $row['email'];?></td><td><?php  echo $row['password'];?></td> <td><a href="edit-customer-detailed.php?editid=<?php echo $row['user_id'];?>">Edit</a> </td> </tr>   <?php 
 $cnt=$cnt+1;
 }?></tbody> </table> 
 					</div>

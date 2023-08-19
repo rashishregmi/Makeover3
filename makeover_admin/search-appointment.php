@@ -69,7 +69,7 @@ if (strlen($_SESSION['bpmsaid'] == 0)) {
 
 
 						<div class="table-responsive bs-example widget-shadow">
-							<h4>Search Appointment / Name / Contact number:</h4>
+						 
 							<div class="form-body">
 								<form method="post" name="search" action="">
 									<p style="font-size:16px; color:red" align="center">
