@@ -107,10 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        if (!termsCheckbox.checked) {
-            alert('Please agree to the terms & conditions.'); 
-            return;
-        }
+       
 
 // Check for duplicate entries with a timestamp to prevent caching
 const duplicateCheckUrl = `../php/check_user.php?timestamp=${Date.now()}`;
