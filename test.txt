@@ -1,0 +1,35 @@
+<main>
+      <div class="container">
+        <div class="heading">
+          <h1>About Us </h1>
+        </div><hr>
+          <div class="container">
+            <h2><p>Welcome to Makeover!</p></h2><br>
+
+              <h4><p>  At makeover beauty parlour, we believe that everyone deserves to feel confident and beautiful. Our dedicated team of experienced beauty professionals is here to provide you with top-notch services that will leave you feeling pampered and rejuvenated.Our mission is to enhance your natural beauty and help you radiate confidence from within. We offer a wide range of beauty treatments and services, including hairstyling, makeup application, skincare, nail care, and more. Whether you're looking for a glamorous makeover for a special occasion or simply want to treat yourself to some self-care, we've got you covered.</p><br>
+                  
+              <p><u>Meet Our Team</u>:
+                 Our team consists of talented and experienced professionals who are dedicated to helping you achieve your desired look. From our expert hairstylists who can create stunning haircuts and hairstyles to our skilled makeup artists who can transform your appearance, each member of our team brings their unique expertise to the table. We are committed to ongoing training and education to ensure that we stay at the forefront of the industry.</p><br>
+                  
+                  
+              <p><u>Customer Satisfaction is Our Priority</u>:
+                 At Makeover beauty parlour, your satisfaction is our utmost priority. We value each and every client and strive to provide a warm and welcoming environment where you can relax and unwind. We take the time to listen to your needs and preferences, and our team is always ready to offer professional advice and recommendations to help you achieve the look you desire.</p><br>
+                  
+                  
+              <p><u> Visit Us</u>:
+                   We invite you to visit our parlour,conveniently located in Manigram,Rupendhei. Step into a world of tranquility and let us take care of all your beauty needs. Schedule an appointment today and experience the difference for yourself.</h4></p>
+        
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+    <ul>
+            <li><a href="./../html/Home.html" class="links">Home</a></li>
+            <li><a href="./../html/About.html" class="links">About</a></li>
+            <li><a href="./../html/Services.html" class="links">Service</a></li>
+            <li><a href="./../html/Appointment.html" class="links">Appointment</a></li>
+            <li><a href="./../html/Contact.html" class="links">Contact</a></li>
+        </ul>

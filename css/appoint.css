@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+                                                
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+     
+}
+
+.logo-girl {
+    background-image: url("./../images/comb.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    height: 58px;
+    width: 58px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.logo {
+    height: 58px;
+    width: 215px;
+    margin-left: 10px;
+}
+.logo-bg {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+span.logo {
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    background-image: linear-gradient(90deg, #FF1493, #00BFFF);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Webkit compatibility */
+    color: transparent;
+    position: relative;
+    left: -25px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+nav {
+    display: flex;
+    background-color:  rgba(255, 255, 255, 0.8);
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.links::after {
+    position: absolute; /* Change to absolute */
+    content: "";
+    height: 3px;
+    background-color: blueviolet;
+    bottom: 0px;
+    left: 0; /* Adjust the left property */
+    width: 0;
+    transition: width 0.5s ease-out; /* Adjust the transition properties */
+}
+
+
+nav ul {
+     
+    height: 60px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+} 
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 1.45rem;
+    position: relative;
+    padding-right: 50px;
+     
+}
+
+nav ul li a:hover {
+    color: blue;
+    font-weight: 400;
+}
+
+nav ul li a:hover::after {
+    width: calc(100% - 50px);
+}
+
+  
+  .confirmation-popup {
+    position: fixed;
+    top: 30%;
+    left: 77%;
+    transform: translate(5%, -105%);
+    padding: 20px;
+    background-color: lightgray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+
+  .confirmation-popup p {
+    margin-bottom: 15px;
+  }
+
+  .confirmation-popup .btn {
+    margin-right: 31px;
+  }
+ 
+ 
+ 
+h1{
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:  60px;
+    color:white;
+}
+.rowcontainer{
+background-color: #E8E8E8;
+
+}
+
+.heading-container{
+    width:100%;
+    padding-top: 60px;
+    background-color: black;
+} 
+
+ 
+/* main*/
+
+.main-container{
+    background-color: #E8E8E8;
+}
+
+.form-row{
+display: flex;
+justify-content:space-between;
+ 
+
+}
+.form-row2{
+display: flex;
+justify-content:space-between;
+padding-bottom: 15px; 
+}
+
+.check-row{
+display: flex;
+flex-direction: column;
+list-style: none;
+ 
+}
+.check-row2{
+display: flex;
+flex-direction: column;
+list-style: none;
+ 
+}
+
+.check-row li{
+padding-bottom: 25px;
+font-size: 1.05rem;
+}
+
+.check-row2 li{
+padding-bottom: 32px;
+font-size: 1.05rem;
+}
+
+ul.check-row li input[type="checkbox"] {
+    margin-top: .2rem;
+    height: 17px;
+    width: 17px;
+}
+
+ .check-row-container{
+    display: flex;
+    justify-content: space-between;
+     
+ }
+
+.input-field{
+    width:15rem;
+    height: 45px;
+    margin: 23px 0;
+     border: 1px solid #777;
+     border-radius: 5px;
+     outline:none; 
+     background-color: #f4f3f3;
+     text-align: left;
+     text-indent: 1rem;
+      
+}
+ 
+::placeholder{
+font-size: 0.9rem;
+
+}
+
+.btn {
+    border-radius: 1px;
+    background-color: hsl(212, 80%, 70%);
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 37%;
+    height: 45px;
+    font-size: 1.025rem;
+    padding: 0.5rem;
+     
+     
+     
+  }
+  .btn:hover {
+    background-color: hsl(212, 80%, 50%);  
+    color: white;  
+    border: 2px solid hsl(212, 80%, 50%);  
+  }
+
+.appointment-container {
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 37rem;
+    height: 30rem;
+    padding: 20px;
+    background-color:  #F0F0F0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+.appointment-container2 {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 37rem;
+    height: 28rem;
+    padding: 20px;
+    background-color:  #F0F0F0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .appointment-container2 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .appointment-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* CSS for date input */
+  .calendar-container input[type="date"]{
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 45px;
+     
+    text-indent: 5px;
+  }
+  
+  .time-container input[type="time"]{
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 45px;
+    transform: translateX(-50%);
+    text-indent: 5px;
+     
+  }
+  
+  .timeflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .timeflex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translateY(30%);
+  }
+
+
+/* Footer */
+
+.footer-container{
+    height: 40vh;
+    position: relative;
+}
+ 
+ footer{
+     
+    height: 100%;
+    width: 100%;
+    background-color: rgb(33, 33, 33); 
+    color: white;
+    position: relative;
+ }
+
+ .gmail{
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+.gmail:hover{
+color: lightblue;
+}
+
+ .box-container{
+    display: flex;
+    height: 100%;
+ }
+
+ .box1{
+     
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(33, 33, 33); 
+    text-align: justify center;
+    padding-left: 7rem;
+    position: relative;
+ }
+
+    .box1-heading{
+        font-size: 1.25rem;
+        padding-bottom: 0.4rem;
+    }
+
+    .box1-info{
+        color: #d2d2d2;
+        font-size: large;
+    }
+
+
+    .box2{
+     
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+         background-color:rgb(33, 33, 33); 
+         
+     }
+
+     .box2-heading{
+        font-size: 1.22rem;
+        position: absolute;
+        top: 17%;
+        left: 50%;
+    }
+
+   
+
+
+.social-media ul li a img{
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    
+}
+
+.social-media ul li {
+    list-style: none;
+    margin: 0 0.2rem;
+}
+
+.social-media ul{
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 49%
+}
+
+ .copyright{
+     position: absolute;
+      bottom: 0.5rem;
+      transform: translateX(-50%);
+    font-family: 'Lato', sans-serif;
+ }
+ 
+  
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.8); /* Set a common background color */
+    display: flex;
+    flex-direction: column;
+}
+
+ 

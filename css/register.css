@@ -1,0 +1,113 @@
+ 
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f6f7f9;
+      }
+      
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 40px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-top: 100px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      h1 {
+        text-align: center;
+        color: #1877f2;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 19px; /* Increased font size for labels */
+      }
+      
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        font-size: 16px; /* Adjusted font size for input fields */
+      }
+      
+      .btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #1877f2;
+        border: none;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+      
+      .btn:hover {
+        background-color: #1565c0;
+      }
+      
+      .forgot-password {
+        text-align: center;
+        margin-top: 10px;
+      }
+      
+      .forgot-password a {
+        text-decoration: none; /* Remove underline from the link */
+        color: #1877f2;
+      }
+      
+      .create-account {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      .create-account p {
+        margin: 0; /* Remove default margin for the paragraph */
+      }
+      
+      .create-account a {
+        color: #1877f2;
+        text-decoration: none;
+      }
+      
+      .create-account-btn {
+        display: block;
+        width: 50%;
+        padding: 10px;
+        background-color: #42b72a;
+        border: none;
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-left: 6.5vw;
+        font-size: 17px;
+        margin-top: 20px;
+      }
+      
+      .create-account-btn:hover {
+        background-color: #32941d;
+      }
+     
+      .create-account {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      .create-account p {
+        margin: 0;
+      }
+      
+      .create-account a {
+        color: #1877f2;
+        text-decoration: none;
+      }
