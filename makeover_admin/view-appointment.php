@@ -100,10 +100,7 @@ while ($row=mysqli_fetch_array($ret)) {
     <td><?php echo $row['first_name'] . ' ' . $row['last_name']; ?></td>
   </tr>
 
-<tr>
-    <th>Email</th>
-    <td><?php  echo $row['email'];?></td>
-  </tr>
+  
    <tr>
     <th>Mobile Number</th>
     <td><?php  echo $row['contact'];?></td>
